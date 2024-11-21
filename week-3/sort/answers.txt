@@ -1,0 +1,26 @@
+sort1 uses: bubble sort
+
+How do you know?: 
+
+Peor caso: O(n2)
+Mejor caso: O(n)
+
+Si ya está ordenada la lista sólo hace una pasada. Para grandes listas desordenadas es ineficiente debido a los muchos intercambios.
+
+sort2 uses: merge sort
+
+How do you know?: 
+
+Peor caso: O(nlog⁡n).
+Mejor caso: O(nlog⁡n).
+
+El más eficiente de los tres (también requiere más uso de memoria), con grandes listas desordenadas es el que consigue mejores tiempos.
+
+sort3 uses: selection sort
+
+How do you know?: 
+
+Peor caso: O(n2)
+Mejor caso: O(n2)
+
+Menos aconsejado de los tres, con datos ya ordenados no mejora la notación, sigue con O(n2).
